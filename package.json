@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "defibox-defistation",
+  "version": "0.1.0",
+  "description": "Defistation Data Provider for Defibox",
+  "main": "index.js",
+  "author": "Denis Carriere",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/async-retry": "*",
+    "@types/cron": "*",
+    "@types/node": "*",
+    "@types/signale": "*",
+    "ts-node": "*",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "async-retry": "*",
+    "axios": "*",
+    "cron": "*",
+    "dotenv": "*",
+    "signale": "*"
+  }
+}

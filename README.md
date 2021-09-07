@@ -7,6 +7,23 @@
 
 Data Provider API is a tool created for DeFi service providers to efficiently update TVL data to Defistation.
 
+## Quickstart
+
+Setup `.env` file
+
+```env
+DEFISTATION_API_TVL_URL="https://api.defistation.io/dataProvider/tvl"
+DEFISTATION_API_CLIENT_ID="<ClientID>"
+DEFISTATION_API_CLIENT_SECRET="<ClientSecret>"
+```
+
+Start process manager to run in background
+
+```bash
+$ npm install -g pm2
+$ pm2 start
+```
+
 ### URL Summary
 
 In order to have your real-time TVL data displayed on Defistation, you must be issued an ID and API Key first. Please fill out the [Apply to be listed](https://forms.gle/SUPc87JiR8Nt4FMp7) form and wait for a Defistation representative to reach back out after the initial screening process.
